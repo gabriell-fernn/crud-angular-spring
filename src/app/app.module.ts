@@ -29,6 +29,7 @@ import { RedDirective } from './directives/red.directive';
 import { MyForDirective } from './directives/my-for.directive';
 import { EstadoRead2Component } from './components/estado/estado-read2/estado-read2.component';
 import { EstadoUpdateComponent } from './components/estado/estado-update/estado-update.component';
+import { EstadoDeleteComponent } from './components/estado/estado-delete/estado-delete.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { EstadoUpdateComponent } from './components/estado/estado-update/estado-
     EstadoReadComponent,
     EstadoRead2Component,
     EstadoUpdateComponent,
+    EstadoDeleteComponent,
   ],
   imports: [
     BrowserModule,
